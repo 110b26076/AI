@@ -28,3 +28,4 @@ plt.scatter(X_test[:, 0], X_test[:, 1], c = colmap[Y_test], s = 150, marker = "o
 plt.scatter(X_test[:, 0], X_test[:, 1], c = colmap[Y_predict], s = 50, marker = "o", alpha = 0.5)
 plt.xlabel("Sepal length", fontsize = 12)
 plt.xlabel("Petal length", fontsize = 12)
+plt.show()
